@@ -98,5 +98,9 @@ RUN pip3 install urllib3
 RUN pip3 install mnist
 RUN pip3 install keras
 RUN pip3 install scikit-image
+RUN pip3 install nltk
+RUN pip3 install requests
+RUN pip3 install fuzzywuzzy
+RUN pip3 install skimage
 
 CMD ["/bin/bash"]
