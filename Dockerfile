@@ -103,4 +103,7 @@ RUN pip3 install requests
 RUN pip3 install fuzzywuzzy
 RUN pip3 install scikit-image
 
+#CMD doesn't alters the image and is the last line which is run
+#while RUN alters the image and is saved in image
 CMD ["/bin/bash"]
+
